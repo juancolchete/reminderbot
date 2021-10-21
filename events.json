@@ -1,7 +1,7 @@
 [
     {
         "name": "Daily",
-        "cron": "10 18 * * 1-5",
+        "cron": "00 17 * * 1-5",
         "content": "A Daily já vai começar @everyone"
     },
     {
