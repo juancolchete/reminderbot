@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Daily",
+        "cron": "10 18 * * 1-5",
+        "content": "A Daily já vai começar @everyone"
+    },
+    {
+    "name": "Refinamento demandas cliente Telemont",
+    "cron": "30 18 21 10 *",
+    "content": "O evento Refinamento demandas cliente Telemont vai começar @everyone"
+    }
+]
