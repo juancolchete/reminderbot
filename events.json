@@ -2,11 +2,18 @@
     {
         "name": "Daily",
         "cron": "00 17 * * 1-5",
-        "content": "A Daily já vai começar @everyone"
+        "content": "",
+        "link": "https://meet.google.com/axu-vbmg-kgf"
     },
     {
     "name": "Refinamento demandas cliente Telemont",
     "cron": "30 18 21 10 *",
-    "content": "O evento Refinamento demandas cliente Telemont vai começar @everyone"
+    "content": ""
+    },
+    {
+        "name": "Alinhamento demanda fluxo de Caixa - cliente Santo Agostinho",
+        "cron": "00 18 25 10 *",
+        "content": "",
+        "link": "https://meet.google.com/axu-vbmg-kgf"
     }
 ]
