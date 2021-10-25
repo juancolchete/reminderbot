@@ -7,7 +7,7 @@ function startBot() {
     console.log("TOTVS Bot");
     console.log("=========================");
     var data = {
-        content: 'Serviço reminder bot iniciado\n ```JSON\n'+JSON.stringify(events)+'\n```',
+        content: 'Serviço reminder bot iniciado\n ```JSON\n'+JSON.stringify(events, null, "  ")+'\n```',
     };
     axios.post('https://discord.com/api/webhooks/900718418506965012/H33v3Y3ysTF3lqYhmajud6dEnC2ixLV2eaPMN5j1tTAYeJhljtWrytIamZjRsTBUMBUz', data)
         .then((res) => {
