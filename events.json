@@ -12,8 +12,20 @@
     },
     {
         "name": "Alinhamento demanda fluxo de Caixa - cliente Santo Agostinho",
-        "cron": "00 18 25 10 *",
+        "cron": "00 18 26 10 *",
         "content": "",
         "link": "https://meet.google.com/axu-vbmg-kgf"
+    },
+    {
+        "name": "9° Encontro da Comunidade de prática TOTVS: Desenvolvimento seguro de código",
+        "cron": "00 17 26 10 *",
+        "content": "",
+        "link": "https://totvs.zoom.us/meeting/register/tZwkduGvpjorE9Sibr9HhbqeW_QXV_gMDhrr"
+    },
+    {
+        "name": "Café financeiro",
+        "cron": "15 20 26 10 *",
+        "content": "",
+        "link": "https://meet.google.com/jzj-ueax-giu"
     }
 ]
