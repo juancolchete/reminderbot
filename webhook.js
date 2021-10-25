@@ -22,7 +22,7 @@ function scheduleMeets() {
     events.forEach((element) => {
         cron.schedule(element.cron, function () {
             data = {
-                content: `O evento ${element.name} já vai começar @everyone`,
+                content: `O evento ${element.name} já vai começar @everyone \n link: ${element.link}`,
             };
 
             axios.post('https://discord.com/api/webhooks/900450969903566908/z3xKQc4GqI7KgNqdVle1WIqosJHwI3STpXIqq2KCUo5XCv1BtlAGUhVtewNk1IrNWDOe', data)
