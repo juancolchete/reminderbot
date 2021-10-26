@@ -1,6 +1,9 @@
 const cron = require('node-cron');
 const axios = require('axios');
 var events = require('./events.json');
+const fs = require('fs');
+const fileName = './events.json';
+const file = require(fileName);
 
 function startBot() {
     console.log("=========================");
@@ -16,6 +19,11 @@ function startBot() {
         }).catch((err) => {
             console.error(err);
         });
+    cron.schedule('10 * * * *', function () {
+        axios.get('https://gist.githubusercontent.com/juanudk/1379e49d78d2f54c66396fa36f4ef2e7/raw/deaf900825d48748f8b1369c6a042bf193d12bd3/events.json').then((res) => {
+            fs.writeFile(JSON.stringify(res.JSON));
+        })
+    })
 }
 
 function scheduleMeets() {
